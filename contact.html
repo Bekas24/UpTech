@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Contact</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js" integrity="sha256-T0Vest3yCU7pafRw9r+settMBX6JkKN06dqBnpQ8d30=" crossorigin="anonymous"></script>
+     
+
+          
+       <link href="https://fonts.googleapis.com/css2?family=Gloria+Hallelujah&display=swap" rel="stylesheet">
+       <!-- <link rel="stylesheet" href="styles.css"> -->
+       <link rel="stylesheet" href="css/styles.css">
+                
+       
+   
+          
+   </head>
+   
+</head>
+<body>
+
+
+<div class="container">
+     <div class="meni">
+         <div class="leva-strana">
+             <div class="meni-link">
+                <a href="index.html">Home</a>
+            </div>  
+             
+            <div class="meni-link">
+                <a href="about.html">About us</a>
+            </div>
+            <div class="meni-link">
+                <a href="FAQ.html">FAQ</a>
+            </div>
+            <div class="meni-link  active-meni-link" >
+                <a href="contact.html">Contact</a>
+            </div>
+        </div>
+
+        <div class="desna-strana">
+            <div class="brand">
+                <div>UPTECH</div>
+            </div>
+
+        </div>
+    </div>
+
+    <div class="container1">
+        <form name="forma" action="" onsubmit="submitFunction()" >
+      
+          <label for="fname">Name</label>
+          <input type="text" id="name" name="ime" placeholder="Your First and Last name...">
+      
+          <label for="lname">Email</label>
+          <input type="email" id="email" name="mejl" placeholder="Your email adress...">
+
+          <label for="lname">Phone number</label>
+          <input type="phone" maxlength="10" id="phone" name="phone" placeholder="Your Phone number(optional)">
+      
+          <label for="country">Country</label>
+          <select id="country" name="country">
+            <option value="Srbija">Serbia</option>
+            <option value="Hrvatska">Croatia</option>
+            <option value="Crna Gora">Montenegro</option>
+            <option value="Bosna i Hercegovina">Bosnia and Herzegovina</option>
+            <option value="Slovenija">Slovenia</option>
+            <option value="Makedonija">Macedonia</option>
+          </select>
+      
+          <label for="subject">Subject</label>
+          <textarea id="textarea" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+      
+          <input type="submit" value="Submit" onclick="prikazi_confirm()" id="submit" value="Posalji">     
+        </form>
+      </div>
+
+      <footer>
+        <div class="footer">
+            <div class="levo">
+        
+                <div class="fot"> <a href="">Facebook</a></div>
+                <div class="fot"> <a href="">Instagram</a></div>
+                <div class="fot"> <a href="">Twitter</a></div>
+        
+            </div>
+        
+            <div class="sredina">
+                <div class="autor"> Copyright©</div>
+            </div>
+            <div class="desno">
+                <div class="autor"> Nikola Petrović</div>
+                <div class="autor">Veljko Ćurčić</div>
+            </div>
+        
+        </div>
+        </footer>
+
+      <script src="js/script.js"></script>
+      
+</body>
+</html> 
